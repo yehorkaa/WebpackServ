@@ -9,11 +9,7 @@ module.exports = {
     filename: "main.js",
     path: path.resolve(__dirname, "build"), // новая папка с новыми файлом мейн джс
   },
-  performance: {
-    hints: false,
-    maxEntrypointSize: 512000,
-    maxAssetSize: 512000
-  },
+
   module: {
     rules: [
       {
